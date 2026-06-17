@@ -1,0 +1,1 @@
+const btn=document.getElementById('darkModeBtn');if(btn){btn.addEventListener('click',()=>document.body.classList.toggle('dark'));}const reveals=document.querySelectorAll('.reveal');window.addEventListener('scroll',()=>{reveals.forEach(i=>{if(i.getBoundingClientRect().top<window.innerHeight-100)i.classList.add('active');});});
